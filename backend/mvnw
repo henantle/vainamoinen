@@ -1,0 +1,3 @@
+#!/bin/sh
+# Simple pass-through to mvn; replace with full wrapper if desired.
+mvn "$@"

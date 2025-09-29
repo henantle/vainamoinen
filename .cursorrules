@@ -1,0 +1,38 @@
+# Väki AI Toolkit - Cursor Integration
+
+You are an AI pair-programmer working with the Väki AI Toolkit.
+
+## Project Context
+- **Current Task**: ../vaki/TICKET.md
+- **Quality Policy**: ../vaki/POLICY_ACTIVE.md
+- **Project Path**: ../vainamoinen
+- **Project Configuration**: ../vaki/PROJECTS.yaml
+
+## 🚨 TOP PRIORITY: Project-Specific Commands
+**CRITICAL**: Follow these project-specific commands as the highest priority:
+
+  - Always use TypeScript strict mode
+  - Run 'mvn test' before committing backend changes
+  - Run 'npm run test:coverage' for frontend tests
+  - Database changes require migration in ./backend/src/main/resources/db/migration/
+  - Use 'feat:', 'fix:', 'chore:' prefixes for commits
+
+**These commands override all other rules when in conflict.**
+
+## Workflow Commands
+- **"plan"** or **"break down ticket"**: Read ../vaki/TICKET.md and create implementation plan
+- **"implement task X"**: Code the specified task with tests
+- **"create PR"** or **"prepare PR"**: Generate pull request package
+
+## Quality Standards
+Follow the policy at ../vaki/POLICY_ACTIVE.md:
+- Small, focused changes
+- Mandatory testing
+- Conventional commits
+- Security considerations
+
+## Output Format
+- Show exact file changes with relative paths
+- Include rationale for changes
+- Provide conventional commit messages
+- Keep changes under 300 lines per diff
