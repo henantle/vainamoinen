@@ -1,11 +1,12 @@
 ---
 name: Ticket
 about: Create a new ticket
-labels: needs-triage
+labels: [needs-triage, priority]
 ---
 
 ## Type
 
+- [ ] System Instructions
 - [ ] Feature
 - [ ] Bug
 - [ ] Enhancement
@@ -20,5 +21,6 @@ labels: needs-triage
 
 ## Technical Info
 
-- Area: [Frontend/Backend]
-- Priority: [High/Medium/Low]
+- Area: [System/Frontend/Backend]
+- Priority: [Critical/High/Medium/Low]
+- Scope: [System-wide/Component]
