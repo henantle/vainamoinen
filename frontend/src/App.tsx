@@ -3,7 +3,8 @@ import HomePage from './pages/HomePage';
 
 export function App() {
   return (
-    <HomePage />
+    <div>
+      <HomePage />
       <div className="max-w-4xl text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-dark mb-6">
           Full-Stack Developer. JVM Expert. Agile Builder.
