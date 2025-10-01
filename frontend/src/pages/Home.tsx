@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import Button from '../components/Button';
+import { Header, Footer, Button } from '../components/DesignSystem';
+import Navigation from '../components/Navigation';
 
 const Home: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
+      <Navigation />
       <main className="flex-grow container mx-auto px-4">
         <section className="my-8">
           <h2 className="text-xl font-bold">Welcome to My Personal Site</h2>
