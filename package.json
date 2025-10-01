@@ -1,0 +1,12 @@
+{
+  "name": "vainamoinen",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "database"
+  ],
+  "devDependencies": {
+    "turbo": "^1.0.0"
+  }
+}
