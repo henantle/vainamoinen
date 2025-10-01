@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import HomePage from './pages/HomePage';
 
 export function App() {
   return (
-    <div className="min-h-screen bg-neutral-light flex items-center justify-center px-4">
+    <HomePage />
       <div className="max-w-4xl text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-dark mb-6">
           Full-Stack Developer. JVM Expert. Agile Builder.
