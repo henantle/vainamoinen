@@ -2,6 +2,9 @@
   "name": "web",
   "version": "1.0.0",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
     "dev": "vite --host",
     "build": "vite build",
     "serve": "vite preview"
