@@ -1,17 +1,31 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  --color-brand-primary: #1A73E8;
-  --color-brand-accent: #00BFA6;
-  --color-brand-orange: #FF6D00;
-  --color-brand-purple: #6C63FF;
+:root {
+  color-scheme: light dark;
+}
 
-  --color-neutral-dark: #1F2937;
-  --color-neutral-mid: #4B5563;
-  --color-neutral-light: #F3F4F6;
-  --color-neutral-white: #FFFFFF;
+body {
+  @apply bg-background text-foreground antialiased;
+}
 
-  --color-status-success: #22C55E;
-  --color-status-warning: #FACC15;
-  --color-status-error: #EF4444;
+.container-max {
+  @apply max-w-5xl mx-auto px-4;
+}
+
+.section {
+  @apply rounded-xl p-4 md:p-6 bg-slate-800/40 ring-1 ring-slate-700/50 shadow-lg;
+}
+
+.h1 {
+  @apply text-3xl md:text-4xl font-bold tracking-tight;
+}
+
+.h2 {
+  @apply text-xl md:text-2xl font-semibold tracking-tight;
+}
+
+.lead {
+  @apply text-base md:text-lg text-muted;
 }
