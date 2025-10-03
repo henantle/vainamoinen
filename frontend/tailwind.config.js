@@ -1,31 +1,21 @@
+/* Tailwind CSS Configuration */
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './index.html',
+    './src/**/*.{ts,tsx}',
   ],
   theme: {
     extend: {
       colors: {
-        brand: {
-          primary: "#1A73E8",
-          accent: "#00BFA6",
-          orange: "#FF6D00",
-          purple: "#6C63FF",
-        },
-        neutral: {
-          dark: "#1F2937",
-          mid: "#4B5563",
-          light: "#F3F4F6",
-          white: "#FFFFFF",
-        },
-        status: {
-          success: "#22C55E",
-          warning: "#FACC15",
-          error: "#EF4444",
-        },
-      },
+        background: '#0f172a', // slate-900
+        foreground: '#e2e8f0', // slate-200
+        primary: '#38bdf8',    // sky-400
+        secondary: '#9333ea',  // purple-600
+        accent: '#22c55e',     // green-500
+        muted: '#94a3b8'       // slate-400
+      }
     },
   },
   plugins: [],
-}
+};
